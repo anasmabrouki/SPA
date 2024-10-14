@@ -1,0 +1,29 @@
+.header{
+ display: flex;
+ flex-direction: row;
+align-items: center;
+justify-content: center;
+ background-image:url(../../../Images/background.jpg);
+        background-size: cover;
+      background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100px;
+    }
+    .header>img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100px;
+      height: 100px;
+    }
+.header>h2{
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.336);
+  padding: 4px;
+  border-radius: 4px;
+  font-family: 'Exo';
+  color:#181834;
+  letter-spacing: 1px;
+}

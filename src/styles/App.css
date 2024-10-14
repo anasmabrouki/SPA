@@ -1,0 +1,86 @@
+
+body{
+    background-image: url("../Images/backgroundImage.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    animation: load 2s ease-in-out;
+  }
+  .home{
+    width: 100vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home1{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    border-right: #181834 double 2px;
+  }
+  
+  .home2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    align-items: center;
+    background-color: white;
+  
+  }
+  .home2>h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Exo';
+    font-weight: 600;
+    margin: 10px;
+  }
+  .logo{
+    width: 100px;
+  }
+  .homePic{
+    width: 300px;
+  }
+  .homeContain{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    height: 100%;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    animation: load 2s ease-in-out;
+  }
+  
+  hr{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 2px;
+    height: 2px;
+    background-color: #333;
+    border: #333 solid 1px;
+  }
+  
+  .DialogDiv {
+    width: 90vw;
+      color: #181834;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-family: 'Exo';
+      border-radius: 4px;
+      margin-bottom: -10px;
+    }
+    @keyframes load {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  
+    
